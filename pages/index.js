@@ -63,37 +63,37 @@ export default function LandingPage() {
           className="z-10 relative flex flex-col items-center justify-center h-full text-green-500 font-mono text-center p-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.2 }}
+          transition={{ duration: 1.5 }}
         >
           <motion.p
             className="text-md sm:text-xl mb-2"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: [0, 1, 0.6, 1] }}
-            transition={{ duration: 2, repeat: Infinity }}
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
           >
             _ SYSTEM BOOT CHECK...
           </motion.p>
           <motion.h1
-            className="text-2xl sm:text-5xl font-bold tracking-wide mb-4"
-            initial={{ y: -50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.5, duration: 1 }}
+            className="text-3xl sm:text-6xl font-bold tracking-widest mb-3"
+            initial={{ scale: 0.6, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 0.2, duration: 1.2 }}
           >
             YOU ARE INSIDE THE SIMULATION
           </motion.h1>
           <motion.h2
-            className="text-xl sm:text-4xl font-extrabold mb-6"
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
+            className="text-lg sm:text-3xl font-semibold mb-6 text-green-300"
+            initial={{ rotateX: 90, opacity: 0 }}
+            animate={{ rotateX: 0, opacity: 1 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
           >
             RACHIT.TW MATRIX NODE
           </motion.h2>
           <motion.p
-            className="text-sm sm:text-lg"
+            className="text-sm sm:text-base tracking-widest"
             initial={{ opacity: 0 }}
-            animate={{ opacity: [0, 1, 0.4, 1] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
+            animate={{ opacity: [0, 1, 0.5, 1] }}
+            transition={{ duration: 2, repeat: Infinity }}
           >
             ░░░ PRESS ANY KEY TO DECRYPT PROFILE ░░░
           </motion.p>
