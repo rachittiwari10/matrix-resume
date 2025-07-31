@@ -71,7 +71,7 @@ export default function LandingPage() {
             animate={{ opacity: [0, 1, 0.6, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            _ Initializing...
+            _ SYSTEM BOOT CHECK...
           </motion.p>
           <motion.h1
             className="text-2xl sm:text-5xl font-bold tracking-wide mb-4"
@@ -79,7 +79,7 @@ export default function LandingPage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            WELCOME TO THE MATRIX OF
+            YOU ARE INSIDE THE SIMULATION
           </motion.h1>
           <motion.h2
             className="text-xl sm:text-4xl font-extrabold mb-6"
@@ -87,7 +87,7 @@ export default function LandingPage() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 1, duration: 1 }}
           >
-            RACHIT TIWARI
+            RACHIT.TW MATRIX NODE
           </motion.h2>
           <motion.p
             className="text-sm sm:text-lg"
@@ -95,7 +95,7 @@ export default function LandingPage() {
             animate={{ opacity: [0, 1, 0.4, 1] }}
             transition={{ duration: 1.5, repeat: Infinity }}
           >
-            ░░░ PRESS ANY KEY TO DECRYPT RÉSUMÉ ░░░
+            ░░░ PRESS ANY KEY TO DECRYPT PROFILE ░░░
           </motion.p>
         </motion.div>
       )}
@@ -112,7 +112,7 @@ export default function LandingPage() {
             animate={{ scale: 1.05 }}
             transition={{ yoyo: Infinity, duration: 0.8 }}
           >
-            Decrypting Résumé...
+            System Access Granted...
           </motion.p>
         </motion.div>
       )}
